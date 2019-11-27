@@ -1,0 +1,154 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.doi-form {
+  margin-top: 28vh;
+  text-align: center;
+  width: 100%;
+}
+
+.doi-form input {
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  width: 98%;
+  max-width: 650px;
+  margin: auto;
+  transition: all 0.5s ease;
+  display: block;
+}
+
+.doi-form input:hover {
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #3f50b5;
+  width: 98%;
+
+  transition: all 0.5s ease;
+}
+
+.doi-form button {
+  height: 40px;
+  margin-top: 40px;
+  width: 33%;
+}
+
+.doi-form input[type="text"] {
+  padding-left: 2%;
+}
+
+.mdl-layout__header {
+  background-color: rgb(255, 255, 255);
+  color: #212121;
+  box-shadow: none;
+}
+
+p.intro-text {
+  text-align: center;
+  margin-top: 80px;
+  color: #b1b1b1;
+}
+
+.verified {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+#logo-icon {
+  padding-right: 10px;
+  color: #000d4e;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#uploaded {
+  padding-left: 75px;
+}
+
+@media (prefers-color-scheme: dark) {
+  #site-title {
+    color: white;
+  }
+  body {
+    background: #111;
+  }
+
+  header {
+    background-color: #1e1e1e;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  #logo-icon {
+    padding-right: 10px;
+    color: #fff;
+  }
+
+  h1,
+  h3,
+  p {
+    color: white;
+  }
+
+  a {
+    color: #ff99bb;
+    text-decoration: none;
+  }
+
+  .doi-form input {
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #969696;
+    width: 98%;
+    background: #2d2d2d;
+    transition: all 0.5s ease;
+    max-width: 650px;
+    margin: auto;
+    display: block;
+  }
+
+  .doi-form input:hover {
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #3f50b5;
+    width: 98%;
+    background: #2d2d2d;
+    transition: all 0.5s ease;
+  }
+
+  @-webkit-keyframes autofill {
+    to {
+      color: #a9a9a9;
+      background: #2d2d2d;
+    }
+  }
+
+  input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+  }
+
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+
+  .doi-form input[type="text"] {
+    padding-left: 2%;
+    color: #a9a9a9;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .mdl-layout__header-row {
+    padding: 0 40px 0 20px;
+  }
+}
