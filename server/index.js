@@ -88,11 +88,6 @@ const resizeImages = async Array => {
   for (let image of imagesPng) {
     try {
       let imageName = image.substring(50, 60);
-      // TODO: you might want to tweak this, originally you were saving
-      // just the part after the doi, this regexp keeps the doi
-      // note that some encoding is happening for special characters
-      // that's why you see %2F '/' and %3A ':'
-      let imageNameMatch = image.match(".+image/(.+?)/.+");
 
       //   if (null === imageNameMatch) {
       //     // in case we could not match a same name

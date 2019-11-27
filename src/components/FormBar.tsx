@@ -12,7 +12,7 @@ export default function FormBar({ action }: { action: string }) {
           type="text"
           name="data"
           id="data"
-          placeholder="Ex: s41928-019-0290-6 s41928-019-0284-4 s41928-019-0285-3"
+          placeholder="Type your search"
           required
         />
 
