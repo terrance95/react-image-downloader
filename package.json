@@ -29,7 +29,7 @@
 		"express": "^4.17.1",
 		"find-remove": "^2.0.0",
 		"minio": "^7.0.12",
-		"node-fetch": "^2.6.0",
+		"node-fetch": "^2.6.1",
 		"parcel-bundler": "^1.12.4",
 		"prettier": "^1.19.1",
 		"request": "^2.88.0",
